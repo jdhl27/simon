@@ -34,8 +34,8 @@
     margin: 0 15vw;
     max-height: 65vh;
     max-width: 65vh;
-    border: 5px solid #d2dcd2;
-    box-shadow: 0px 0px 10px 3px #5f5f5f;
+    border: 3px solid #d2dcd2;
+    box-shadow: 0px 0px 9px 1px #5f5f5f;
   }
   
   .containerPoints {
@@ -182,8 +182,8 @@
     margin: 0 auto;
     max-height: 65vh;
     max-width: 65vh;
-    border: 5px solid #d2dcd2;
-    box-shadow: 0px 0px 10px 3px #5f5f5f;
+    border: 3px solid #d2dcd2;
+    box-shadow: 0px 0px 9px 1px #5f5f5f;
     margin-top: 9vh;
   }
   
