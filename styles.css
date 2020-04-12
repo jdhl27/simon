@@ -90,6 +90,7 @@ body {
   left: calc(34% - 172px);
   box-shadow: 1px 1px 11px 1px black;
   font-family: Barlow;
+  cursor: pointer;
 }
 
 .hide {
