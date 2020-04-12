@@ -9,8 +9,6 @@ var nivelR = 0;
 
 const ULTIMO_NIVEL = 30
 
-this.infoJuego();
-
 infoJuego() {
   swal({
     title: "¿Como se juega?",
