@@ -164,3 +164,16 @@ footer>span>a{
   color: wheat;
   text-decoration:none;
 }
+
+.enlaceInfo{
+  color: white;
+  cursor: pointer;
+  margin-left: 1.7vw;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.3vw;
+}
+
+.enlaceInfo:hover{
+  color: #FF9800;
+  cursor: pointer;
+}
