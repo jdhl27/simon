@@ -9,15 +9,6 @@ var nivelR = 0;
 
 const ULTIMO_NIVEL = 30
 
-infoJuego() {
-  swal({
-    title: "¿Como se juega?",
-    text: "El juego de forma aleatoria va iluminando los cuadrantes de colores. Después de esperar, el usuario debe ir introduciendo la secuencia mostrada en el orden correcto, ayudándose de su memoria visual. Si lo consigue, éste responderá con una secuencia más larga, y así sucesivamente. Si falla, el usuario debe volver a empezar. Los distintos niveles de dificultad van aumentando la velocidad de la secuencia a repetir.",
-    icon: "info",
-    button: "Ok",
-  });
-}
-
 class Juego {
   constructor() {
     this.inicializar = this.inicializar.bind(this);
@@ -158,4 +149,13 @@ class Juego {
 
 function empezarJuego() {
   window.juego = new Juego()
+}
+
+function infoJuego() {
+  swal({
+    title: "¿Como se juega?",
+    text: "El juego de forma aleatoria va iluminando los cuadrantes de colores. Después de esperar, el usuario debe ir introduciendo la secuencia mostrada en el orden correcto, ayudándose de su memoria visual. Si lo consigue, éste responderá con una secuencia más larga, y así sucesivamente. Si falla, el usuario debe volver a empezar. Los distintos niveles de dificultad van aumentando la velocidad de la secuencia a repetir.",
+    icon: "info",
+    button: "Ok",
+  });
 }
