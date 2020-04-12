@@ -59,38 +59,6 @@
     float: left;
   }
   
-  .celeste {
-    background: #00adb5;
-  }
-  
-  .celeste.light {
-    background: #6db2b5;
-  }
-  
-  .violeta {
-    background: #ff6363;
-  }
-  
-  .violeta.light {
-    background: #f99292;
-  }
-  
-  .naranja {
-    background: #fd7014;
-  }
-  
-  .naranja.light {
-    background: #fbac78;
-  }
-  
-  .verde {
-    background: #f6c90e;
-  }
-  
-  .verde.light {
-    background: #efd366;
-  }
-  
   .btn-start {
     width: 61vh;
     height: 14vh;
@@ -221,13 +189,10 @@
   
   .containerPoints {
     
-position: absolute;
-    
-top: 5vh;
-    
-left: 7vw;
-    
-display: flex;
+    position: absolute;
+    top: 5vh;
+    left: 7vw;
+    display: flex;
   }
   
   .color {
@@ -242,38 +207,6 @@ display: flex;
   
   .right {
     float: left;
-  }
-  
-  .celeste {
-    background: #00adb5;
-  }
-  
-  .celeste.light {
-    background: #6db2b5;
-  }
-  
-  .violeta {
-    background: #ff6363;
-  }
-  
-  .violeta.light {
-    background: #f99292;
-  }
-  
-  .naranja {
-    background: #fd7014;
-  }
-  
-  .naranja.light {
-    background: #fbac78;
-  }
-  
-  .verde {
-    background: #f6c90e;
-  }
-  
-  .verde.light {
-    background: #efd366;
   }
   
   .btn-start {

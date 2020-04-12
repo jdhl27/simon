@@ -1,8 +1,16 @@
+// Colores
 const celeste = document.getElementById('celeste')
 const violeta = document.getElementById('violeta')
 const naranja = document.getElementById('naranja')
 const verde = document.getElementById('verde')
+// Buton
 const btnEmpezar = document.getElementById('btnEmpezar')
+// Sounds
+var audioDo = document.getElementById("audioDo");
+var audioRe = document.getElementById("audioRe");
+var audioMi = document.getElementById("audioMi");
+var audioFa = document.getElementById("audioFa");
+
 var nivelActual = document.getElementById('nivelActual')
 var nivelRecord = document.getElementById('nivelRecord')
 var nivelR = 0;
@@ -80,7 +88,23 @@ class Juego {
   iluminarSecuencia() {
     for (let i = 0; i < this.nivel; i++) {
       let color = this.transformarNumeroAColor(this.secuencia[i]);
-      setTimeout(() => this.iluminarColor(color), 1000 * i);
+      setTimeout(() => {
+        this.iluminarColor(color)
+        switch (this.secuencia[i]) {
+          case 0:
+            audioDo.play()
+            break;
+          case 1:
+            audioRe.play()
+            break;
+          case 2:
+            audioMi.play()
+            break;
+          case 3:
+            audioFa.play()
+            break;
+        }
+      } , 1000 * i);
     }
   }
 
@@ -111,6 +135,20 @@ class Juego {
     const nombreColor = ev.target.dataset.color;
     const numeroColor = this.transformaColorANumero(nombreColor);
     this.iluminarColor(nombreColor);
+    switch (numeroColor) {
+      case 0:
+        audioDo.play()
+        break;
+      case 1:
+        audioRe.play()
+        break;
+      case 2:
+        audioMi.play()
+        break;
+      case 3:
+        audioFa.play()
+        break;
+    }
 
     if (numeroColor === this.secuencia[this.subnivel]) {
       this.subnivel++;
