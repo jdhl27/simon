@@ -139,6 +139,62 @@
     cursor: pointer;
   }
 
+  .meteoro{
+    position: absolute;
+    top: 3vh;
+    left: 56vw;
+    z-index: -1;
+  }
+
+  .estrella1{
+    position: absolute;
+    top: 3vh;
+    left: 32vw;
+    z-index: -1;
+  }
+
+  .estrella2{
+    position: absolute;
+    top: 18vh;
+    left: 17vw;
+    z-index: -1;
+  }
+
+  .estrella3{
+    position: absolute;
+    top: 62vh;
+    left: 77vw;
+    z-index: -1;
+  }
+
+  .estrella4{
+    position: absolute;
+    top: 35vh;
+    left: 8vw;
+    z-index: -1;
+  }
+
+  .estrella5{
+    position: absolute;
+    top: 41vh;
+    left: 89vw;
+    z-index: -1;
+  }
+
+  .estrella6{
+    position: absolute;
+    top: 58vw;
+    left: 10vw;
+    z-index: -1;
+  }
+
+  .estrella7{
+    position: absolute;
+    top: 83vh;
+    left: 79vw;
+    z-index: -1;
+  }
+
 }
 
 /*-------------------------------------------------------------------------------Movil Portrait*/
@@ -271,5 +327,62 @@
 
   .enlaceInfo:hover{
     cursor: pointer;
+  }
+
+  .meteoro{
+    position: absolute;
+    top: 10vh;
+    left: 75vw;
+    z-index: -1;
+    display: none;
+  }
+
+  .estrella1{
+    position: absolute;
+    top: 38vh;
+    left: 0vw;
+    z-index: -1;
+  }
+
+  .estrella2{
+    position: absolute;
+    top: 21vh;
+    left: 17vw;
+    z-index: -1;
+  }
+
+  .estrella3{
+    position: absolute;
+    top: 18vh;
+    left: 85vw;
+    z-index: -1;
+  }
+
+  .estrella4{
+    position: absolute;
+    top: 30vh;
+    left: 93vw;
+    z-index: -1;
+  }
+
+  .estrella5{
+    position: absolute;
+    top: 75vh;
+    left: 88vw;
+    z-index: -1;
+  }
+
+  .estrella6{
+    position: absolute;
+    top: 81vh;
+    left: 5vw;
+    z-index: -1;
+  }
+
+  .estrella7{
+    position: absolute;
+    top: 54vh;
+    left: 94vw;
+    z-index: -1;
   }
 }

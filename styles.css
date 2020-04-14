@@ -193,3 +193,59 @@ footer>span>a{
   color: #FF9800;
   cursor: pointer;
 }
+
+.meteoro{
+  position: absolute;
+  top: 3vh;
+  left: 76vw;
+  z-index: -1;
+}
+
+.estrella1{
+  position: absolute;
+  top: 5vh;
+  left: 28vw;
+  z-index: -1;
+}
+
+.estrella2{
+  position: absolute;
+  top: 30vh;
+  left: 6vw;
+  z-index: -1;
+}
+
+.estrella3{
+  position: absolute;
+  top: 6vh;
+  left: 60vw;
+  z-index: -1;
+}
+
+.estrella4{
+  position: absolute;
+  top: 68vh;
+  left: 4vw;
+  z-index: -1;
+}
+
+.estrella5{
+  position: absolute;
+  top: 80vh;
+  left: 60vw;
+  z-index: -1;
+}
+
+.estrella6{
+  position: absolute;
+  top: 29vh;
+  left: 55vw;
+  z-index: -1;
+}
+
+.estrella7{
+  position: absolute;
+  top: 24vw;
+  left: 141vh;
+  z-index: -1;
+}
