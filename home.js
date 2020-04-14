@@ -1,6 +1,12 @@
 var es_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 if(es_chrome){
-    // body
+
+    swal({
+      title: "RECOMENDACIONES",
+      text: "Se recomienda el uso del navegador Google Chrome.",
+      icon: "chrome.png",
+      button: "Ok",
+    });
 
     // Paleta
     const circulo = document.getElementByClassName('gameboard')
