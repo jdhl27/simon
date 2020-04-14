@@ -17,6 +17,14 @@ var nivelR = 0;
 
 const ULTIMO_NIVEL = 30
 
+swal({
+  title: "RECOMENDACIONES",
+  text: "Para mejor jugabilidad se recomienda el uso del navegador Google Chrome.",
+  icon: "chrome.png",
+  button: "Ok",
+});
+
+
 class Juego {
   constructor() {
     this.inicializar = this.inicializar.bind(this);
