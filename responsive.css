@@ -3,29 +3,27 @@
     font-family: Abel;
     src: url("fonts/Abel/Abel-Regular.ttf");
   }
-  
+
   @font-face {
     font-family: Barlow;
     src: url("fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf");
   }
-  
+
   * {
     font-family: Abel;
   }
 
 /*------------------------------------------------------------------------------Tablet Portrait*/
-    
-@media all and (max-width: 768px) and (min-width: 600px){ 
+
+@media all and (max-width: 768px) and (min-width: 600px){
 
   body {
     margin: 0;
-    background: #dedede;
     display: flex;
     align-items: center;
     height: 100vh;
-    background-color: #22303a;
-  }
-  
+    }
+
   .gameboard {
     height: 100vh;
     width: 100vh;
@@ -37,33 +35,30 @@
     border: 3px solid #d2dcd2;
     box-shadow: 0px 0px 9px 1px #5f5f5f;
   }
-  
+
   .containerPoints {
-    
-  position: absolute; 
-  top: 3vh;  
-  left: 77vw;
+    position: absolute;
+    top: 3vh;
+    left: 77vw;
   }
-  
+
   .color {
     width: 50%;
     height: 50%;
     display: inline-block;
   }
-  
+
   .left {
     float: left;
   }
-  
+
   .right {
     float: left;
   }
-  
+
   .btn-start {
     width: 61vh;
     height: 14vh;
-    background: #ecf0f1;
-    color: #1a3d61;
     font-size: 3.5vw;
     position: absolute;
     top: 42vh;
@@ -72,60 +67,50 @@
     font-family: Barlow;
     cursor: pointer;
   }
-  
+
   .hide {
     display: none;
   }
-  
-  .swal-overlay {
-    background-color: rgba(0, 0, 0, 0.69);
-  }
-  
+
   .swal-button {
     padding: 7px 19px;
     border-radius: 2px;
-    background-color: #4962B3;
     font-size: 12px;
     border: 1px solid #3e549a;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
   }
-  
+
   .swal-button:hover {
-    background-color: #6c7eb9 !important;
+    mportant;
   }
-  
+
   .swal-text {
     font-size: 2.5vw;
-    color: black;
   }
-  
+
   .poinst{
-    background-color: white;
     padding: 20px;
     border: 1px solid #828282;
     box-shadow: 0px 0px 3px 1px white;
     margin-bottom: 1vw;
   }
-  
+
   .poinst:nth-child(2){box-shadow: 0px 0px 5px 0px #FF9800;}
-  
+
   .nivel{
-    color:black;
     font-size: 2vw;
   }
-  
+
   #nivelActual{
-    color: orange;
     font-weight: 600;
   }
-  
+
   #nivelRecord{
-    color: white;
     background: #FF9800;
     padding: 3px;
     border-radius: 10px;
   }
-  
+
   footer{
     position: absolute;
     top: 91.5vh;
@@ -133,47 +118,40 @@
     padding: 17px 0;
     width: 100%;
     border-top: 1px solid orange;
-    box-shadow: 1px 1px 7px 1px #ffc967;
   }
-  
+
   footer>span{
     margin-left: 42vw;
-    color: white;
   }
-  
+
   footer>span>a{
-    color: wheat;
     text-decoration:none;
   }
-  
+
   .enlaceInfo{
-    color: white;
     cursor: pointer;
     margin-left: 2.5vw;
     text-shadow: 1px 1px 1px black;
     font-size: 2vw;
   }
-  
+
   .enlaceInfo:hover{
-    color: #FF9800;
     cursor: pointer;
   }
 
 }
 
 /*-------------------------------------------------------------------------------Movil Portrait*/
-    
-@media all and (max-width: 599px){ 
+
+@media all and (max-width: 599px){
 
   body {
     margin: 0;
-    background: #dedede;
     display: flex;
     align-items: center;
     height: 100vh;
-    background-color: #22303a;
-  }
-  
+    }
+
   .gameboard {
     height: 100vh;
     width: 100vh;
@@ -186,34 +164,33 @@
     box-shadow: 0px 0px 9px 1px #5f5f5f;
     margin-top: 9vh;
   }
-  
+
   .containerPoints {
-    
+
     position: absolute;
     top: 5vh;
     left: 7vw;
     display: flex;
   }
-  
+
   .color {
     width: 50%;
     height: 50%;
     display: inline-block;
   }
-  
+
   .left {
     float: left;
   }
-  
+
   .right {
     float: left;
   }
-  
+
   .btn-start {
     width: 71vw;
     height: 14vh;
     background: #ecf0f1;
-    color: #1a3d61;
     font-size: 6.5vw;
     position: absolute;
     top: 47vh;
@@ -222,92 +199,77 @@
     font-family: Barlow;
     cursor: pointer;
   }
-  
+
   .hide {
     display: none;
   }
-  
+
   .swal-overlay {
-    background-color: rgba(0, 0, 0, 0.69);
+     0, 0.69);
   }
-  
+
   .swal-button {
     padding: 7px 19px;
     border-radius: 2px;
-    background-color: #4962B3;
     font-size: 12px;
     border: 1px solid #3e549a;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
   }
-  
-  .swal-button:hover {
-    background-color: #6c7eb9 !important;
-  }
-  
+
   .swal-text {
     font-size: 3vh;
-    color: black;
   }
-  
+
   .poinst{
-    background-color: white;
     padding: 17px;
     border: 1px solid #828282;
     box-shadow: 0px 0px 3px 1px white;
     margin-left: 2vw;
   }
-  
+
   .poinst:nth-child(2){box-shadow: 0px 0px 5px 0px #FF9800;}
-  
+
   .nivel{
     color:black;
     font-size: 3vh;
   }
-  
+
   #nivelActual{
-    color: orange;
     font-weight: 600;
   }
-  
+
   #nivelRecord{
     color: white;
     background: #FF9800;
     padding: 3px;
     border-radius: 10px;
   }
-  
+
   footer{
     position: absolute;
     top: 90.1vh;
-    background: #38434a;
     padding: 17px 0;
     width: 100%;
     border-top: 1px solid orange;
-    box-shadow: 1px 1px 7px 1px #ffc967;
   }
-  
+
   footer>span{
     margin-left: 21vw;
-    color: white;
   }
-  
+
   footer>span>a{
-    color: wheat;
     text-decoration:none;
   }
-  
+
   .enlaceInfo{
-    color: white;
     cursor: pointer;
     margin-left: 3.5vw;
     margin-top: 3vw;
     text-shadow: 1px 1px 1px black;
     font-size: 3.5vw;
   }
-  
+
   .enlaceInfo:hover{
-    color: #FF9800;
     cursor: pointer;
   }
-
 }

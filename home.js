@@ -182,7 +182,7 @@ class Juego {
   }
 
   ganoElJuego() {
-    swal('¡Ganaste!', 'Felicitaciones, ganaste el juego :)', 'success')
+    swal('¡Ganaste!', 'Felicitaciones, ganaste el juego :)', 'premio.png')
       .then(this.inicializar)
   }
 

@@ -130,6 +130,10 @@ body {
   color: black;
 }
 
+.swal-title{
+  color: black;
+}
+
 .poinst{
   background-color: white;
   padding: 20px;
