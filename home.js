@@ -24,6 +24,9 @@ swal({
   button: "Ok",
 });
 
+window.onload = function() {
+  window.scrollTo(0, document.body.scrollHeight);
+};
 
 class Juego {
   constructor() {
@@ -31,7 +34,6 @@ class Juego {
     this.inicializar();
     this.generarSecuencia();
     setTimeout( this.siguienteNivel, 500);
-
   }
 
   inicializar() {
