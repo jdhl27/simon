@@ -7,18 +7,6 @@ if(es_chrome){
       icon: "chrome.png",
       button: "Ok",
     });
-
-    // Paleta
-    const circulo = document.getElementByClassName('gameboard')
-    // Estrellas
-    const estrella1 = document.getElementByClassName('estrella1')
-    const estrella2 = document.getElementByClassName('estrella2')
-    const estrella3 = document.getElementByClassName('estrella3')
-    const estrella4 = document.getElementByClassName('estrella4')
-    const estrella5 = document.getElementByClassName('estrella5')
-    const estrella6 = document.getElementByClassName('estrella6')
-    const estrella7 = document.getElementByClassName('estrella7')
-    const meteoro = document.getElementByClassName('meteoro')
     // Colores
     const celeste = document.getElementById('celeste')
     const violeta = document.getElementById('violeta')
