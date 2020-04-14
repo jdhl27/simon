@@ -9,6 +9,7 @@
     <title>Juego - Simón</title>
   </head>
   <body>
+    <h1 class="hide" style="margin: 0 auto; color: white;" id="descargarChrome">Descargue Google Chrome <a style="text-decoration: none; color:orange" href="https://www.google.com/intl/es/chrome/" target="_blank">aquí</a> </h1>
     <audio id="audioDo" class="audio" controls>
       <source type="audio/wav" src="sounds/do.wav">
     </audio>
@@ -21,22 +22,22 @@
     <audio id="audioFa" class="audio" controls>
       <source type="audio/wav" src="sounds/fa.wav">
     </audio>
-    <img class="meteoro" src="estrella-fugaz.png" alt="">
-    <img class="estrella1" src="brillante.png" alt="">
-    <img class="estrella2" src="brillante.png" alt="">
-    <img class="estrella3" src="brillante.png" alt="">
-    <img class="estrella4" src="brillante.png" alt="">
-    <img class="estrella5" src="brillante.png" alt="">
-    <img class="estrella6" src="brillante.png" alt="">
-    <img class="estrella7" src="brillante.png" alt="">
-    <div class="gameboard">
+    <img class="meteoro" id="meteoro" src="estrella-fugaz.png" alt="">
+    <img class="estrella1" id="estrella1" src="brillante.png" alt="">
+    <img class="estrella2" id="estrella2" src="brillante.png" alt="">
+    <img class="estrella3" id="estrella3" src="brillante.png" alt="">
+    <img class="estrella4" id="estrella4" src="brillante.png" alt="">
+    <img class="estrella5" id="estrella5" src="brillante.png" alt="">
+    <img class="estrella6" id="estrella6" src="brillante.png" alt="">
+    <img class="estrella7" id="estrella7" src="brillante.png" alt="">
+    <div class="gameboard" id="gameboard">
       <div id="celeste" class="color celeste left" data-color="celeste"></div>
       <div id="violeta" class="color violeta right" data-color="violeta"></div>
       <div id="naranja" class="color naranja left" data-color="naranja"></div>
       <div id="verde" class="color verde right" data-color="verde"></div>
       <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">¡Empezar a jugar!</button>
     </div>
-    <div class="containerPoints">
+    <div class="containerPoints" id="containerPoints">
       <div class="poinst">
         <span class="nivel">Nivel Actual: <span id="nivelActual">1</span></span>
       </div>
